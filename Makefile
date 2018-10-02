@@ -12,10 +12,6 @@ PROGRAM_NAME := test
 CXX := g++ -std=c++11
 CXXFLAGS := -Wall -Wextra -O3 -mavx -fopenmp -pipe
 
-# external libraries
-LIBS := -lfftw3 -lsndfile
-EXT_INCLUDES := -I/home/yukara/Tools/Eigen_3.3.2/
-
 # source directories
 ROOT_DIR := .
 SOURCE_DIR := $(ROOT_DIR)
